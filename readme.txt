@@ -1,4 +1,4 @@
-# Unit-4-GameCreate a game like the word or letter guessing game.
+Create a game like the word or letter guessing game.
 
 There will be four crystals displayed as buttons on the page.
 The player will be shown a random number at the start of the game.
