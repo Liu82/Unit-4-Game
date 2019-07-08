@@ -6,19 +6,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Crystal Game</title>
-        <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assests/css/style.css">
-
-    
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/javascript/game.js">
+        
     </head>
 
     <body>
         <script type ="text/javascript" src="game.js"></script>
+        
     <div class="w-25 p-2">
         
         <div class="row">
             <div class="col-sm">
-                <h1>Crystal Game </h1>
+                <h1><strong><h1>Crystal Game</strong></h1>
                 
             </div>
         
@@ -65,12 +66,15 @@
         
     <div class="row">
     
-        <img id="stone1" src="diamond.jpg" class="image">
-        <img id="stone2" src="emerald.jpg" class="image">
-        <img id="stone3" src="ruby.jpg" class="image">
-        <img id="stone4" src="sapphire.jpg" class="image">
-    
-    </div>
+        
+        <div>
+            <!-- Crystals -->
+            <div id="crystal-area"></div>
+            <div id="score-title">Your total score is:</div>
+            <!-- Score Display -->
+            <div id="score-area"></div>
+          </div>
+        
     
     <div class="row">
         
